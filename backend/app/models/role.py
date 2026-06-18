@@ -1,0 +1,26 @@
+"""Role model + canonical role names for RBAC."""
+import enum
+
+from sqlalchemy import String
+from sqlalchemy.orm import Mapped, mapped_column, relationship
+
+from app.core.database import Base
+
+
+class RoleName(str, enum.Enum):
+    super_admin = "super_admin"
+    admin = "admin"
+    manager = "manager"
+    teacher = "teacher"
+    student = "student"
+    parent = "parent"
+
+
+class Role(Base):
+    __tablename__ = "roles"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(String(20), unique=True, index=True, nullable=False)
+    description: Mapped[str | None] = mapped_column(String(255))
+
+    users: Mapped[list["User"]] = relationship(back_populates="role")  # noqa: F821

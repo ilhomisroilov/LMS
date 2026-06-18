@@ -1,0 +1,62 @@
+{
+  "app": { "name": "EduCore", "tagline": "Learning Center Management System" },
+  "nav": {
+    "dashboard": "Dashboard", "students": "Students", "teachers": "Teachers",
+    "groups": "Groups", "attendance": "Attendance", "payments": "Payments",
+    "lms": "Lessons (LMS)", "parent": "Child progress", "settings": "Settings", "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login", "phone": "Phone number", "password": "Password",
+    "signin": "Sign in", "error": "Invalid phone or password", "title": "Sign in to Admin Panel"
+  },
+  "dashboard": {
+    "title": "Dashboard", "total_students": "Total students",
+    "active_students": "Active students", "teachers": "Teachers",
+    "active_groups": "Active groups", "courses": "Courses",
+    "revenue": "Revenue this month", "debt": "Total debt", "attendance_rate": "Attendance (30d)"
+  },
+  "students": {
+    "title": "Students", "add": "Add student", "search": "Search...",
+    "name": "Full name", "phone": "Phone", "parent_phone": "Parent phone",
+    "status": "Status", "groups": "Groups", "actions": "Actions",
+    "active": "Active", "frozen": "Frozen", "graduated": "Graduated",
+    "phone_exists": "A user with this phone number already exists",
+    "create_error": "Could not create the student. Please try again."
+  },
+  "teachers": {
+    "title": "Teachers", "add": "Add teacher", "name": "Full name",
+    "phone": "Phone", "salary": "Salary", "subjects": "Subjects", "actions": "Actions"
+  },
+  "groups": {
+    "title": "Groups", "add": "Add group", "name": "Name", "course": "Course",
+    "teacher": "Teacher", "schedule": "Schedule", "students": "Students", "actions": "Actions"
+  },
+  "attendance": {
+    "title": "Attendance", "select_group": "Select group", "date": "Date",
+    "student": "Student", "status": "Status",
+    "present": "Present", "absent": "Absent", "late": "Late"
+  },
+  "payments": {
+    "title": "Payments", "add": "Add payment", "student": "Student", "amount": "Amount",
+    "paid": "Paid", "month": "Month", "status": "Status",
+    "status_paid": "Paid", "status_unpaid": "Unpaid", "status_partial": "Partial"
+  },
+  "lms": {
+    "title": "Lessons (LMS)", "courses": "Courses", "lessons": "Lessons",
+    "add_course": "Add course", "add_lesson": "Add lesson",
+    "lesson_title": "Lesson title", "type": "Type", "content": "Content", "order": "Order"
+  },
+  "parent": {
+    "title": "Child progress", "subtitle": "Attendance, lessons, and payment overview",
+    "select_child": "Select child", "no_children": "No child is linked to this profile.",
+    "attendance": "Attendance", "completed_lessons": "Completed lessons", "progress": "Progress",
+    "debt": "Outstanding balance", "recent_results": "Recent attendance results",
+    "load_error": "Could not load the data. Please try again."
+  },
+  "settings": { "title": "Settings", "language": "Language", "uz": "Uzbek", "en": "English" },
+  "common": {
+    "save": "Save", "cancel": "Cancel", "delete": "Delete", "edit": "Edit",
+    "create": "Create", "loading": "Loading...", "no_data": "No data",
+    "confirm_delete": "Confirm delete?", "yes": "Yes", "actions": "Actions"
+  }
+}

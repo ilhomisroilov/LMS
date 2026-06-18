@@ -1,0 +1,62 @@
+{
+  "app": { "name": "EduCore", "tagline": "O‘quv markazini boshqarish tizimi" },
+  "nav": {
+    "dashboard": "Boshqaruv paneli", "students": "O‘quvchilar", "teachers": "O‘qituvchilar",
+    "groups": "Guruhlar", "attendance": "Davomat", "payments": "To‘lovlar",
+    "lms": "Darslar (LMS)", "parent": "Farzand natijalari", "settings": "Sozlamalar", "logout": "Chiqish"
+  },
+  "auth": {
+    "login": "Kirish", "phone": "Telefon raqami", "password": "Parol",
+    "signin": "Tizimga kirish", "error": "Telefon yoki parol noto‘g‘ri", "title": "Admin panelga kirish"
+  },
+  "dashboard": {
+    "title": "Boshqaruv paneli", "total_students": "Jami o‘quvchilar",
+    "active_students": "Faol o‘quvchilar", "teachers": "O‘qituvchilar",
+    "active_groups": "Faol guruhlar", "courses": "Kurslar",
+    "revenue": "Bu oy daromad", "debt": "Umumiy qarz", "attendance_rate": "Davomat (30 kun)"
+  },
+  "students": {
+    "title": "O‘quvchilar", "add": "O‘quvchi qo‘shish", "search": "Qidirish...",
+    "name": "F.I.Sh.", "phone": "Telefon", "parent_phone": "Ota-ona tel.",
+    "status": "Holati", "groups": "Guruhlar", "actions": "Amallar",
+    "active": "Faol", "frozen": "Muzlatilgan", "graduated": "Bitirgan",
+    "phone_exists": "Bu telefon raqami bilan foydalanuvchi allaqachon mavjud",
+    "create_error": "O‘quvchini yaratib bo‘lmadi. Qayta urinib ko‘ring."
+  },
+  "teachers": {
+    "title": "O‘qituvchilar", "add": "O‘qituvchi qo‘shish", "name": "F.I.Sh.",
+    "phone": "Telefon", "salary": "Maosh", "subjects": "Fanlar", "actions": "Amallar"
+  },
+  "groups": {
+    "title": "Guruhlar", "add": "Guruh qo‘shish", "name": "Nomi", "course": "Kurs",
+    "teacher": "O‘qituvchi", "schedule": "Jadval", "students": "O‘quvchilar", "actions": "Amallar"
+  },
+  "attendance": {
+    "title": "Davomat", "select_group": "Guruhni tanlang", "date": "Sana",
+    "student": "O‘quvchi", "status": "Holat",
+    "present": "Keldi", "absent": "Kelmadi", "late": "Kechikdi"
+  },
+  "payments": {
+    "title": "To‘lovlar", "add": "To‘lov qo‘shish", "student": "O‘quvchi", "amount": "Summa",
+    "paid": "To‘langan", "month": "Oy", "status": "Holat",
+    "status_paid": "To‘langan", "status_unpaid": "To‘lanmagan", "status_partial": "Qisman"
+  },
+  "lms": {
+    "title": "Darslar (LMS)", "courses": "Kurslar", "lessons": "Darslar",
+    "add_course": "Kurs qo‘shish", "add_lesson": "Dars qo‘shish",
+    "lesson_title": "Dars nomi", "type": "Turi", "content": "Kontent", "order": "Tartib"
+  },
+  "parent": {
+    "title": "Farzand natijalari", "subtitle": "Davomat, darslar va to‘lovlar bo‘yicha holat",
+    "select_child": "Farzandni tanlang", "no_children": "Profilga biriktirilgan farzand topilmadi.",
+    "attendance": "Davomat", "completed_lessons": "Tugallangan darslar", "progress": "O‘zlashtirish",
+    "debt": "Qolgan qarz", "recent_results": "So‘nggi davomat natijalari",
+    "load_error": "Ma’lumotlarni yuklab bo‘lmadi. Qayta urinib ko‘ring."
+  },
+  "settings": { "title": "Sozlamalar", "language": "Til", "uz": "O‘zbekcha", "en": "Inglizcha" },
+  "common": {
+    "save": "Saqlash", "cancel": "Bekor qilish", "delete": "O‘chirish", "edit": "Tahrirlash",
+    "create": "Yaratish", "loading": "Yuklanmoqda...", "no_data": "Ma’lumot yo‘q",
+    "confirm_delete": "O‘chirishni tasdiqlaysizmi?", "yes": "Ha", "actions": "Amallar"
+  }
+}

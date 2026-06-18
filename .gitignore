@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Env
+.env
+*.local
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Storage / uploads
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Runtime data / generated artifacts
+artifacts/
+*.log
+*.out
+*.pid
+*.db
+*.sqlite
+*.sqlite3
+.coverage
+htmlcov/
+coverage/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
